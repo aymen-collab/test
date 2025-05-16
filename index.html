@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جدول مراجعة الباكالوريا</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 10px;
+            background-color: #f4f4f4;
+            color: #333;
+            direction: rtl; /* Right-to-left direction for Arabic */
+        }
+        .table-container {
+            width: 100%;
+            overflow-x: auto; /* Enable horizontal scrolling on small screens */
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Collapse borders */
+            min-width: 700px; /* Ensure table is wide enough to need scroll on small screens */
+        }
+        th, td {
+            border: 1px solid #ddd; /* Light grey border */
+            padding: 12px; /* Padding inside cells */
+            text-align: center; /* Center align text */
+            white-space: nowrap; /* Prevent text wrapping in cells */
+        }
+        th {
+            background-color: #007bff; /* Blue background for headers */
+            color: white; /* White text for headers */
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2; /* Zebra striping for rows */
+        }
+        tr:hover {
+            background-color: #ddd; /* Highlight row on hover */
+        }
+        .exam-cell {
+            background-color: #ffcccc; /* Light red background for exams */
+            font-weight: bold;
+            color: #a00; /* Dark red text */
+        }
+         .mock-test-cell {
+            background-color: #e0e0e0; /* Light grey background for mock tests */
+        }
+         /* Style for fixed commitments */
+         .fixed-slot {
+            font-style: italic;
+            color: #555;
+         }
+    </style>
+</head>
+<body>
+
+    <h2>جدول مراجعة الباكالوريا علوم إعلامية (16 ماي - 1 جوان 2025)</h2>
+
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>التاريخ</th>
+                    <th>اليوم</th>
+                    <th>الصباح<br>(09:00–11:30)</th>
+                    <th>بعد الظهر<br>(14:00–18:00)</th>
+                    <th>المساء<br>(18:30–20:00)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>16 ماي 2025</td>
+                    <td>الجمعة</td>
+                    <td>خوارزميات (درس/مراجعة)</td>
+                    <td>أنظمة وشبكات (درس/مراجعة)</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>17 ماي 2025</td>
+                    <td>السبت</td>
+                    <td>عربية</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>18 ماي 2025</td>
+                    <td>الأحد</td>
+                    <td>فلسفة</td>
+                    <td>فرنسية</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>19 ماي 2025</td>
+                    <td>الإثنين</td>
+                    <td class="exam-cell">امتحان أنظمة وشبكات تطبيقي</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">رياضيات (درس مع الأستاذ)</td>
+                </tr>
+                <tr>
+                    <td>20 ماي 2025</td>
+                    <td>الثلاثاء</td>
+                    <td>خوارزميات (مراجعة مركزة للامتحان التطبيقي)</td>
+                    <td>خوارزميات (تمارين تطبيقية مكثفة)</td>
+                    <td class="fixed-slot">رياضيات (درس مع الأستاذ)</td>
+                </tr>
+                <tr>
+                    <td>21 ماي 2025</td>
+                    <td>الأربعاء</td>
+                    <td>خوارزميات (مراجعة أخيرة)</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">رياضيات (درس مع الأستاذ)</td>
+                </tr>
+                <tr>
+                    <td>22 ماي 2025</td>
+                    <td>الخميس</td>
+                    <td class="exam-cell">امتحان خوارزميات تطبيقي</td>
+                    <td>راحة / مراجعة خفيفة</td>
+                    <td>راحة / مراجعة خفيفة</td>
+                </tr>
+                <tr>
+                    <td>23 ماي 2025</td>
+                    <td>الجمعة</td>
+                    <td>أنظمة وشبكات (مراجعة بعد الامتحان)</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>24 ماي 2025</td>
+                    <td>السبت</td>
+                    <td>خوارزميات (تمارين بعد الامتحان)</td>
+                    <td>عربية</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>25 ماي 2025</td>
+                    <td>الأحد</td>
+                    <td>فلسفة</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>26 ماي 2025</td>
+                    <td>الإثنين</td>
+                    <td class="mock-test-cell">فرنسية (اختبار تجريبي)</td>
+                    <td class="mock-test-cell">إنجليزية (اختبار تجريبي)</td>
+                    <td class="fixed-slot">رياضيات (درس مع الأستاذ)</td>
+                </tr>
+                <tr>
+                    <td>27 ماي 2025</td>
+                    <td>الثلاثاء</td>
+                    <td>أنظمة وشبكات (تمارين)</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">رياضيات (درس مع الأستاذ)</td>
+                </tr>
+                <tr>
+                    <td>28 ماي 2025</td>
+                    <td>الأربعاء</td>
+                    <td>خوارزميات (تمارين)</td>
+                    <td class="mock-test-cell">عربية (اختبار تجريبي)</td>
+                    <td class="fixed-slot">رياضيات (درس مع الأستاذ)</td>
+                </tr>
+                <tr>
+                    <td>29 ماي 2025</td>
+                    <td>الخميس</td>
+                    <td class="mock-test-cell">فلسفة (اختبار تجريبي)</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td>فرنسية</td>
+                </tr>
+                <tr>
+                    <td>30 ماي 2025</td>
+                    <td>الجمعة</td>
+                    <td>إنجليزية</td>
+                    <td class="mock-test-cell">أنظمة وشبكات (اختبار تجريبي)</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>31 ماي 2025</td>
+                    <td>السبت</td>
+                    <td class="mock-test-cell">خوارزميات (اختبار تجريبي)</td>
+                    <td class="fixed-slot">فيزياء (دراسة مع الأستاذ)</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+                <tr>
+                    <td>01 جوان 2025</td>
+                    <td>الأحد</td>
+                    <td>عربية</td>
+                    <td>فلسفة</td>
+                    <td class="fixed-slot">مشغول</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
